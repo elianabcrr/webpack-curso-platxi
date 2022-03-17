@@ -5,7 +5,7 @@
 */
 
     const path = require('path'); //elemento disponible n node
-    const HtmlWebpackPlugin = require('html-webpack-Plugin');
+    const HtmlWebpackPlugin = require('html-webpack-plugin');
     const MiniCssExtractPlugin = require('mini-css-extract-plugin');
     const CopyPlugin = require('copy-webpack-plugin');
     const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
