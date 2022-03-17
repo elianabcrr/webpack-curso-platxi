@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./scripts/create-env.js && weback --watch --config webpack.config.js",
+    "build": "node ./scripts/create-env.js && weback --mode production --config webpack.config.js",
+    "build:watch": "weback --watch --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js"
   },
   "repository": {
